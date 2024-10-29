@@ -1,48 +1,56 @@
-# Projeto iChoveu ☔
+# Projeto Zoo Functions 🦁
 
-Boas-vindas ao repositório do projeto iChoveu! Este projeto foi desenvolvido como parte do curso da Trybe, com o objetivo de implementar funcionalidades para busca de informações meteorológicas de diversas cidades. Abaixo, você encontrará orientações sobre como estruturar o desenvolvimento do seu projeto e as funcionalidades que devem ser implementadas.
+Boas-vindas ao repositório do projeto Zoo Functions! Este projeto foi desenvolvido como parte do curso da Trybe, com o objetivo de implementar diversas funções relacionadas à gestão de um zoológico. Abaixo, você encontrará orientações sobre como estruturar o desenvolvimento do seu projeto e as funcionalidades que devem ser implementadas.
 
 ## Tecnologias Utilizadas
 
 - JavaScript
-- HTML
-- CSS
 
 ## Funcionalidades do Projeto
 
 O projeto consiste na implementação das seguintes funções:
 
-1. **searchCities**: Implementa a função `searchCities` no arquivo `helpers/weatherAPI.js`, responsável por buscar cidades na API.
-2. **getWeatherByCity**: Implementa a função `getWeatherByCity` no arquivo `helpers/weatherAPI.js` e complementa a função `handleSearch` em `helpers/pageFunctions.js`.
-3. **Listar cidades retornadas**: Após a chamada da API, renderiza o retorno utilizando a função `createCityElement`.
-4. **Botão de previsão para 7 dias**: Adiciona um botão dentro do elemento de cada cidade para ver a previsão dos próximos 7 dias.
+1. **getSpeciesByIds**: Retorna um array com as espécies dos animais de acordo com um ID fornecido.
+2. **getAnimalsOlderThan**: Verifica se todos os animais de uma determinada espécie são mais velhos ou têm a idade especificada.
+3. **getEmployeeByName**: Busca colaboradores pelo primeiro ou último nome.
+4. **getRelatedEmployees**: Verifica se um colaborador é gerente e quais funcionários estão sob sua supervisão.
+5. **countAnimals**: Conta a quantidade de espécies de animais no zoológico.
+6. **handlerElephants**: Implementação de testes para garantir pelo menos 80% de cobertura.
+7. **handlerElephants**: Implementação de testes para garantir 90% de cobertura.
+8. **calculateEntry**: Calcula o valor total da entrada dos visitantes do zoológico.
+9. **getSchedule**: Disponibiliza um cronograma com os horários de visita da semana para cada espécie.
+10. **getOldestFromFirstSpecies**: Encontra o animal mais velho da espécie gerenciada por um colaborador.
+11. **getEmployeesCoverage**: Retorna informações sobre colaboradores e as espécies pelas quais são responsáveis.
+12. **getOpeningHours**: Implementação de testes para garantir pelo menos 85% de cobertura.
+13. **getOpeningHours**: Implementação de testes para garantir 95% de cobertura.
+14. **getAnimalMap**: Mapeia geograficamente os animais de cada espécie, permitindo filtros por localização, nome e sexo.
 
 ### Requisitos Bônus
 
-- **Cobertura Completa de Testes**: Implementa testes para garantir uma cobertura completa (100%) das funções principais.
+- **handlerElephants**: Testes para obter 100% de cobertura.
+- **getOpeningHours**: Testes para obter 100% de cobertura.
 
 ## Instruções de Instalação e Uso
 
 1. Clone este repositório para o seu computador:
 
-    ```bash
-    git clone git@github.com:JyojiTenguam/project-ichoveu.git
-    ```
+```bash
+    git clone git@github.com:JyojiTenguam/project-zoo-functions.git
+```
 
 2. Navegue até o diretório do projeto:
 
-    ```bash
-    cd project-ichoveu
-    ```
+```bash
+    cd project-zoo-functions
+```
 
-3. Instale as dependências do projeto:
+3. Instale as dependências do projeto: 
 
-    ```bash
+```bash
     npm install
-    ```
-
+```
 4. Execute os testes para verificar se tudo está funcionando corretamente:
 
-    ```bash
+```bash
     npm test
-    ```
+```
