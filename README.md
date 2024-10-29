@@ -43,8 +43,11 @@ O projeto consiste na implementação das seguintes funções:
     ```bash
     cd project-zoo-functions
     ```
-
-3. Execute os testes para verificar se tudo está funcionando corretamente:
+3. Instale as dependências do projeto:
+    ```sh
+    npm install
+    ```
+4. Execute os testes para verificar se tudo está funcionando corretamente:
 
     ```bash
     npm test
