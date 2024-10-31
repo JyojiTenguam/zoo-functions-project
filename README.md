@@ -29,3 +29,36 @@ O projeto consiste na implementação das seguintes funções:
 
 - **handlerElephants**: Testes para obter 100% de cobertura.
 - **getOpeningHours**: Testes para obter 100% de cobertura.
+
+## Instruções de Instalação e Uso
+
+1. **Faça um Fork do Repositório**:
+   - Acesse o [repositório original do projeto](https://github.com/JyojiTenguam/project-zoo-functions) no GitHub e clique em **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+
+2. **Clone o Repositório Forkado**:
+   - Após fazer o fork, copie o link do seu repositório e clone-o para o seu computador:
+
+    ```bash
+    git clone git@github.com:seu-usuario/project-zoo-functions.git
+    ```
+
+3. **Navegue até o Diretório do Projeto**:
+
+    ```bash
+    cd project-zoo-functions
+    ```
+
+4. **Instale as Dependências**:
+
+    ```bash
+    npm install
+    ```
+
+5. **Execute os Testes**:
+   - Execute os testes para verificar se tudo está funcionando corretamente:
+
+    ```bash
+    npm test
+    ```
+
+Substitua `"seu-usuario"` pelo seu nome de usuário no GitHub para que o link do fork seja correto.
