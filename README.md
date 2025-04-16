@@ -1,64 +1,69 @@
-# Projeto Zoo Functions 🦁
+# 🦁 Zoo Functions
 
-Boas-vindas ao repositório do projeto Zoo Functions! Este projeto foi desenvolvido como parte do curso da Trybe, com o objetivo de implementar diversas funções relacionadas à gestão de um zoológico. Abaixo, você encontrará orientações sobre como estruturar o desenvolvimento do seu projeto e as funcionalidades que devem ser implementadas.
+Uma aplicação em JavaScript que simula o gerenciamento de um zoológico, desenvolvida como exercício do módulo de Fundamentos do Desenvolvimento Web da Trybe.
 
-## Tecnologias Utilizadas
+## ✨ Demonstração
+
+> Projeto de terminal. O sistema simula o gerenciamento de animais no zoológico, realizando tarefas como cálculo de receitas, análise de dados sobre os animais e exibição de informações detalhadas sobre o zoo.
+
+## 📋 Índice
+
+- [Sobre](#-sobre)
+- [Habilidades desenvolvidas](#-habilidades-desenvolvidas)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como rodar o projeto](#-como-rodar-o-projeto)
+- [Autor](#-autor)
+
+## 💡 Sobre
+
+Neste projeto foi desenvolvido um sistema capaz de:
+
+- Gerenciar dados sobre os animais do zoológico, como espécies e alimentação;
+- Realizar cálculos de receita com base nas entradas do público;
+- Fornecer informações detalhadas sobre os animais e seus habitats;
+- Manipular dados através de funções e objetos.
+
+É um exercício de fixação de conceitos de manipulação de dados, estrutura de funções e objetos em JavaScript.
+
+## 🛠️ Habilidades desenvolvidas
+
+- Manipular dados com JavaScript
+- Trabalhar com objetos e arrays
+- Utilizar funções para manipulação de dados
+- Resolver problemas utilizando lógica de programação
+
+## 🧪 Tecnologias utilizadas
 
 - JavaScript
+- Node.js (para execução do código)
 
-## Funcionalidades do Projeto
+## 🚀 Como rodar o projeto
 
-O projeto consiste na implementação das seguintes funções:
+1. Clone o repositório:
 
-1. **getSpeciesByIds**: Retorna um array com as espécies dos animais de acordo com um ID fornecido.
-2. **getAnimalsOlderThan**: Verifica se todos os animais de uma determinada espécie são mais velhos ou têm a idade especificada.
-3. **getEmployeeByName**: Busca colaboradores pelo primeiro ou último nome.
-4. **getRelatedEmployees**: Verifica se um colaborador é gerente e quais funcionários estão sob sua supervisão.
-5. **countAnimals**: Conta a quantidade de espécies de animais no zoológico.
-6. **handlerElephants**: Implementação de testes para garantir pelo menos 80% de cobertura.
-7. **handlerElephants**: Implementação de testes para garantir 90% de cobertura.
-8. **calculateEntry**: Calcula o valor total da entrada dos visitantes do zoológico.
-9. **getSchedule**: Disponibiliza um cronograma com os horários de visita da semana para cada espécie.
-10. **getOldestFromFirstSpecies**: Encontra o animal mais velho da espécie gerenciada por um colaborador.
-11. **getEmployeesCoverage**: Retorna informações sobre colaboradores e as espécies pelas quais são responsáveis.
-12. **getOpeningHours**: Implementação de testes para garantir pelo menos 85% de cobertura.
-13. **getOpeningHours**: Implementação de testes para garantir 95% de cobertura.
-14. **getAnimalMap**: Mapeia geograficamente os animais de cada espécie, permitindo filtros por localização, nome e sexo.
+```bash
+git clone https://github.com/tryber/zoo-functions-project.git
+```
 
-### Requisitos Bônus
+2. Acesse a pasta do projeto
 
-- **handlerElephants**: Testes para obter 100% de cobertura.
-- **getOpeningHours**: Testes para obter 100% de cobertura.
+```bash
+cd zoo-functions-project
+```
 
-## Instruções de Instalação e Uso
+3. Instale as dependências
 
-1. **Faça um Fork do Repositório**:
-   - Acesse o [repositório original do projeto](https://github.com/JyojiTenguam/project-zoo-functions) no GitHub e clique em **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+```bash
+npm install
+```
 
-2. **Clone o Repositório Forkado**:
-   - Após fazer o fork, copie o link do seu repositório e clone-o para o seu computador:
+4. Inicie o servidor local (se necessário) ou execute os testes
 
-    ```bash
-    git clone git@github.com:seu-usuario/project-zoo-functions.git
-    ```
+```bash
+npm test
+```
+>Os testes serão executados e o resultado será exibido no terminal
 
-3. **Navegue até o Diretório do Projeto**:
+## 👤 Autor
 
-    ```bash
-    cd project-zoo-functions
-    ```
-
-4. **Instale as Dependências**:
-
-    ```bash
-    npm install
-    ```
-
-5. **Execute os Testes**:
-   - Execute os testes para verificar se tudo está funcionando corretamente:
-
-    ```bash
-    npm test
-    ```
-
-Substitua `"seu-usuario"` pelo seu nome de usuário no GitHub para que o link do fork seja correto.
+Este projeto foi desenvolvido como parte do curso de Desenvolvimento Web da Trybe, por Jyoji Tenguam.
